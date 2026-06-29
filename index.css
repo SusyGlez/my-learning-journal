@@ -1,18 +1,28 @@
 body {
   display: flex;
   flex-direction: column;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .logo-img {
+  width: 1.4em;
+  height: 1.4em;
 }
 
 .nav-link {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  gap: 3.125em;
 }
 
 h1 {
+  font-size: 0.847rem;
 }
 
 main {
@@ -22,6 +32,7 @@ main {
 }
 
 .hero-image {
+  z-index: -1;
 }
 
 .hero-post-date {
