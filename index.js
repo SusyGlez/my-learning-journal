@@ -1,0 +1,1 @@
+import { postsArray } from "./posts";

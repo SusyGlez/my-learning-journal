@@ -1,5 +1,46 @@
 body {
+  display: flex;
+  flex-direction: column;
 }
 
 header {
+}
+
+.logo-img {
+}
+
+.nav-link {
+}
+
+h1 {
+}
+
+main {
+}
+
+.hero-post {
+}
+
+.hero-image {
+}
+
+.hero-post-date {
+}
+
+h2 {
+}
+
+.hero-post-paragraph {
+}
+
+.other-content {
+}
+
+.view-more-link {
+}
+
+footer {
+}
+
+span {
 }
