@@ -41,7 +41,7 @@ header {
   gap: 3.125em;
 }
 
-h1 {
+.site-name {
   font-size: 0.847rem;
 }
 
@@ -71,7 +71,7 @@ main {
   text-transform: uppercase;
 }
 
-h2 {
+.hero-post-title {
   font-size: 2rem;
 }
 
