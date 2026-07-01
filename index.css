@@ -15,9 +15,12 @@ header,
 main,
 .other-content,
 .post-container,
+.hero-post-page,
 footer {
   display: flex;
 }
+
+/* HOME PAGE */
 
 header {
   flex-direction: row;
@@ -44,6 +47,9 @@ header {
 
 .nav-link {
   text-transform: uppercase;
+  color: #090909;
+  font-weight: 500;
+  text-decoration: none;
   font-size: 0.75rem;
   gap: 3.125em;
 }
@@ -77,12 +83,22 @@ main {
   text-transform: uppercase;
 }
 
-.hero-post-title {
+.hero-title {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
   font-size: 2rem;
+  margin: 0.25em 0;
+}
+
+.hero-post-title:hover {
+  transform: scale(101%);
 }
 
 .hero-post-paragraph {
   font-size: 1rem;
+  margin-bottom: 0.5em;
 }
 
 .other-content,
@@ -136,4 +152,30 @@ footer {
 
 .foot-2 {
   color: #d7d7d7;
+}
+
+/* HERO & ABOUT ME PAGES */
+
+.hero-post-title {
+  color: #151515;
+  font-size: 1.5rem;
+}
+
+.hero-post-page,
+.about-me-page,
+.about-me-content {
+  flex-direction: column;
+  margin: 3em 1.25em;
+  gap: 1em;
+}
+
+.subtitle {
+  font-size: 1rem;
+}
+
+h4 {
+  text-align: center;
+}
+
+.about-me-image {
 }
