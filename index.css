@@ -169,7 +169,8 @@ footer {
   gap: 1em;
 }
 
-.subtitle {
+.subtitle,
+.about-me-subtitle {
   font-size: 1rem;
 }
 
@@ -178,4 +179,20 @@ h4 {
 }
 
 .about-me-image {
+  margin-bottom: 1.6875em;
+}
+
+.about-me-title {
+  font-size: 2.178rem;
+  margin-bottom: 1rem;
+}
+
+.about-me-content {
+  margin-top: 0;
+}
+
+.about-me-subtitle,
+.about-me-paragraph {
+  margin-bottom: 1rem;
+  color: #151515;
 }
