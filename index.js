@@ -1,5 +1,9 @@
 import { postsArray } from "./posts.js";
 
+const viewMoreBtn = document.getElementById("nav-link-viewmore");
+
+viewMoreBtn.addEventListener("click", function () {});
+
 function getPostsListHtml() {
   let postsListHtml = ``;
 
