@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
-  margin: 0;
+  margin: auto;
 }
 
 header {
@@ -46,6 +46,9 @@ h1 {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-post {
@@ -60,11 +63,12 @@ main {
 }
 
 .hero-image {
-  object-fit: cover;
+  width: 100%;
 }
 
 .hero-post-date {
   font-size: 0.75rem;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -79,10 +83,32 @@ h2 {
 }
 
 .view-more-link {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 2.6875em;
 }
 
 footer {
+  background-color: #202020;
+  padding: 2.3125em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1875em;
 }
 
-span {
+.foot-1,
+.foot-2 {
+  font-size: 0.75rem;
+}
+
+.foot-1 {
+  color: #ececec;
+  font-weight: bold;
+}
+
+.foot-2 {
+  color: #d7d7d7;
 }
